@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sms_app</title>
+</head>
+<body>
+    <h3>sms_app</h3>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">보내기</button>
+    </form>
+</body>
+</html>
